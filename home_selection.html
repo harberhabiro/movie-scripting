@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UnethicalJokes Movies</title>
+    <link href="{{ url_for('static', filename='selection.css') }}" rel="stylesheet">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+</head>
+<body>
+	<label>Movie Changes With/Without Notice<br>Updated {{ last_update }}</br></label>
+	<li><a href="/faq">FAQ</a></li>
+	<li><a href="https://www.gofundme.com/f/hyxxm-unethicaljokes-movies?utm_source=customer&utm_medium=copy_link-tip&utm_campaign=p_cp+share-sheet">Please Donate</a></li>
+
+	{% for catagory_name, movies in catagorys.items() %}
+		<nav>
+			<h1><u>{{ catagory_name }}</u></h1>
+			<ul>
+				{% for movie in movies %}
+					<li><a href="watch/{{ movie.id }}">{{ movie.name }}</a></li>
+				{% endfor %}
+			</ul>
+		</nav>
+	{% endfor %}
+</body>
+</html>

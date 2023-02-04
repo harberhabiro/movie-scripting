@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>video player test</title>
+
+    <!-- video.js -->
+    <link href="https://unpkg.com/video.js/dist/video-js.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/video.js/dist/video.min.js"></script>
+
+    <script src="videojs.zoomrotate.js"></script>
+
+    <style>
+    </style>
+
+</head>
+<body>
+    <h1>rotation video player test</h1>
+    <video 
+        id="movie" 
+        class="video-js vjs-default-skin" 
+        controls 
+		fluid='true' 
+        preload="auto" 
+        poster="https://movies.unethicaljokes.com/resources/covers/default.jpg" 
+        data-setup='{}'>
+
+        <source src="http://www.archive.org/download/AnimatedMechanicalArtPiecesAtMit/P1120973_512kb.mp4" type="video/mp4">    
+        <p class="vjs-no-js">
+            An error has occured. Please try enabing JavaScript or use a different more modern browser.
+        </p>
+    </video>
+
+    <script>
+        var my_video_id = videojs('movie');
+        my_video_id.zoomrotate({
+            rotate: 270,
+            zoom: 1.0
+        });
+    </script>
+</body>
+</html>

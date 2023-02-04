@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404</title>
+    <style>
+        *{
+            text-align: center;
+            font-family: 'Source Code Pro', '';
+            color: white;
+        }
+        h1{
+            font-size: 80px;
+        }
+        h4{
+            font-size: 19px;
+        }
+        button{
+            color: black;
+            background-color: #fcba03; /* Green */
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            font-weight: bolder;
+            display: inline-block;
+            font-size: 22px;
+        }
+        button:hover{
+            color: #fcba03;
+            background-color: black;
+        }
+        body{
+            background-color: black;
+        }
+    </style>
+    <script>
+    function goBack() {
+        window.history.back();
+    }
+    </script>
+</head>
+<body>
+    <h1>404</h1>
+    <br>
+    <h4>{{ details }}</h4>
+    <br>
+    <button onclick="goBack()">Go Back</button>
+</body>
+</html>
