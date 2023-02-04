@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+body {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 960px;
+	min-width: 640;
+	width: 100%;
+}
+html {
+	background-color: rgb(33, 41, 60);
+}
+body { 
+	background-color: Cornsilk;
+	font-family: 'Century Gothic', sans-serif;
+    text-align: center;
+    overflow-x: hidden;
+}
+*{
+    text-align: center;
+}
+button{
+    color: black;
+    background-color: #fcba03; /* Green */
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bolder;
+    display: inline-block;
+    font-size: 22px;
+}
+button:hover{
+    color: #fcba03;
+    background-color: black;
+}
