@@ -1,0 +1,205 @@
+{
+  "movies": [
+    {
+      "name": "Avengers End Game",
+      "file": "EndGame.mp4",
+      "cover_img": "default.jpg",
+      "category": "Action",
+      "description": "",
+      "id": "12a93e79-b25e-4d93-ab71-924cc98fe5af"
+    },
+    {
+      "name": "Godzilla",
+      "file": "Godzilla.mp4",
+      "cover_img": "default.jpg",
+      "category": "Action",
+      "description": "",
+      "id": "78ace8c6-586a-48dd-ac70-b063c042060b"
+    },
+    {
+      "name": "Sonic",
+      "file": "Sonic.mp4",
+      "cover_img": "default.jpg",
+      "category": "Comedy",
+      "description": "",
+      "id": "6be8bc31-eb58-46ef-8780-0e714e50ba0a"
+    },
+    {
+      "name": "Bad Boys",
+      "file": "BadBoys.mp4",
+      "cover_img": "default.jpg",
+      "category": "Action",
+      "description": "",
+      "id": "1f531aaa-41bb-472e-8f9c-46993529cae9"
+    },
+    {
+      "name": "Birds of Prey",
+      "file": "BirdsofPrey.mp4",
+      "cover_img": "default.jpg",
+      "category": "Action",
+      "description": "",
+      "id": "ab63e159-ee86-44af-9848-feebc7175b71"
+    },
+    {
+      "name": "Joker",
+      "file": "Joker.mp4",
+      "cover_img": "joker.jpg",
+      "category": "Comedy",
+      "description": "",
+      "id": "dc596016-b587-4e80-9842-4c58407426b5"
+    },
+    {
+      "name": "Bloodshot",
+      "file": "Bloodshot.mp4",
+      "cover_img": "default.jpg",
+      "category": "Action",
+      "description": "",
+      "id": "50faaee7-13d8-40d2-b35c-2c8034645990"
+    },
+    {
+      "name": "Onward",
+      "file": "Onward.mp4",
+      "cover_img": "default.jpg",
+      "category": "Comedy",
+      "description": "",
+      "id": "7e9b3f36-392a-4b9e-8613-85cb7566133a"
+    },
+    {
+      "name": "1917",
+      "file": "1917.mp4",
+      "cover_img": "default.jpg",
+      "category": "Action",
+      "description": "",
+      "id": "8fa610bf-4c65-4a7d-8230-3d59a837b118"
+    },
+    {
+      "name": "Baby Driver",
+      "file": "BabyDriver.mp4",
+      "cover_img": "default.jpg",
+      "category": "Action",
+      "description": "",
+      "id": "7af7a6ed-e7ce-48a4-8bda-8971b36a4502"
+    },
+    {
+      "name": "Cars 2",
+      "file": "Cars2.mp4",
+      "cover_img": "default.jpg",
+      "category": "Comedy",
+      "description": "",
+      "id": "beans"
+    },
+    {
+      "name": "Dunkirk",
+      "file": "Dunkirk.mp4",
+      "cover_img": "default.jpg",
+      "category": "Action",
+      "description": "",
+      "id": "dunkirk"
+    },
+    {
+      "name": "Robots",
+      "file": "Robots.mp4",
+      "cover_img": "default.jpg",
+      "category": "Comedy",
+      "description": "",
+      "id": "robots"
+    },
+    {
+      "name": "Star Wars III: Revenge of the Sith",
+      "file": "SWROTS.mp4",
+      "cover_img": "default.jpg",
+      "category": "Action",
+      "description": "",
+      "id": "starwars3"
+    },
+    {
+      "name": "El Camino",
+      "file": "ElCamino.mp4",
+      "cover_img": "default.jpg",
+      "category": "Action",
+      "description": "",
+      "id": "el_camino"
+    },
+    {
+      "name": "Interstellar",
+      "file": "interstellar.mp4",
+      "cover_img": "default.jpg",
+      "category": "Action",
+      "description": "",
+      "id": "a49d28f3-cca2-45d2-8b1d-72ae7ef43f42"
+    },
+    {
+      "name": "The Martian",
+      "file": "the_martian.mp4",
+      "cover_img": "default.jpg",
+      "category": "Action",
+      "description": "",
+      "id": "the_martian"
+    },
+    {
+      "name": "Once Upon a Time in Hollywood",
+      "file": "hollywood.mp4",
+      "cover_img": "default.jpg",
+      "category": "Comedy",
+      "description": "",
+      "id": "hollywood"
+    },
+    {
+      "name": "Ford V Ferrari",
+      "file": "ford_v_ferrari.mp4",
+      "cover_img": "default.jpg",
+      "category": "Action",
+      "description": "",
+      "id": "ford"
+    },
+    {
+      "name": "Mutafukaz",
+      "file": "mfkz_90.mp4",
+      "cover_img": "default.jpg",
+      "category": "Action",
+      "description": "",
+      "id": "mfkz"
+    },
+    {
+      "name": "The Dictator",
+      "file": "the_dict.mp4",
+      "cover_img": "default.jpg",
+      "category": "Comedy",
+      "description": "",
+      "id": "dictator"
+    },
+    {
+      "name": "The Wolf of Wall Street",
+      "file": "wolf.mp4",
+      "cover_img": "default.jpg",
+      "category": "Comedy",
+      "description": "",
+      "id": "wolf"
+    },
+    {
+      "name": "Automata",
+      "file": "automata.mp4",
+      "cover_img": "default.jpg",
+      "category": "Action",
+      "description": "",
+      "id": "automata"
+    },
+    {
+      "name": "Black Panther",
+      "file": "black_panther.mp4",
+      "cover_img": "default.jpg",
+      "category": "Action",
+      "description": "",
+      "id": "black_panther"
+    },
+    {
+      "name": "Big Ass Spider",
+      "file": "big_ass_spider.mp4",
+      "cover_img": "default.jpg",
+      "category": "Action",
+      "description": "",
+      "id": "bigassspider"
+    }
+  ],
+  "last_update": "09/22/2020"
+}
